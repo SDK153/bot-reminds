@@ -1,7 +1,7 @@
 import telebot
 import time
 bot =telebot.TeleBot("732224348:AAEBv0jKGwwjWG10NT-yPLo8Fpsl5sOJYB4")
-medicina=time.strftime("07:30:00")
+medicina=time.strftime("16:50:00")
 medicina2=time.strftime("07:40:00")
 hora=time.strftime("%X")
 timer=0
