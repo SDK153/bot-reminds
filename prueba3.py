@@ -1,16 +1,16 @@
 import telebot
 import time
-bot =telebot.TeleBot("641328257:AAEOdPPO5paJwqgE95fu9QFex4UokUEL9pw")
-medicina=time.strftime("24:05:00")
-medicina2=time.strftime("24:10:00")
+bot =telebot.TeleBot("732224348:AAEBv0jKGwwjWG10NT-yPLo8Fpsl5sOJYB4")
+medicina=time.strftime("07:30:00")
+medicina2=time.strftime("07:40:00")
 hora=time.strftime("%X")
 timer=0
 inicio=False
 def horas():
 	global timer,corre
-	chatid2=682154940
+	chatid2=753932841
 	bot.send_message(chatid2,"Recordatorio, toma tus medicamentos")
-	bot.send_message(chatid2,"envia el comando /confirmar para confirmar")
+	bot.send_message(chatid2,"Feliz Dia")
 	timer=0
 while True:
 	hora=time.strftime("%X")
